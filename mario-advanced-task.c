@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int h = get_int("1-8arası bir yükseklik giriniz:\n");
+    int h = get_int("1-8 arası bir yükseklik giriniz:\n");
     
     
         if(h>0 && h<9){
