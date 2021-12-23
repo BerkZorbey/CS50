@@ -7,18 +7,24 @@ int main(void)
     
     
         if(h>0 && h<9){
+            
         for(int i=0;i<h;i++){
             for(int k=h-i;k>1;k--){
                 printf(" ");
             }
             for(int j=0;j<i+1;j++){
-                   printf("#");
-                   
+                   printf("#");         
+            }
+            printf("  ");
+            for(int j=0;j<i+1;j++){
+                   printf("#");         
             }
           printf("\n");  
         }
-        
         }
+        
+            
+            
        
     
 }
